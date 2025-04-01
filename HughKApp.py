@@ -29,7 +29,7 @@ instructions_data = st.secrets["INSTRUCTIONS"]
 
 #  == Hardcoded ids to be used once the first code run is done and the assistant was created
 assis_id = "asst_VnX6PTIGVCyKymhtgdXROu6M" 
-thread_id = "thread_lClMjq57Qa4Dt2bzptzTmhAq"
+thread_id = "thread_lClMjq57Qa4Dt2bzptzTmhAq111"
 
 if "start_chat" not in st.session_state:
     st.session_state.start_chat = False
