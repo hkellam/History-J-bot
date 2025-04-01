@@ -9,7 +9,7 @@ import logging
 from datetime import datetime
 import streamlit as st
 
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets.toml["OPENAI_API_KEY"]
 
 load_dotenv()
 
